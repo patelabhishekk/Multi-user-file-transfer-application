@@ -22,7 +22,7 @@ It uses Java sockets and multi-threading to handle concurrent connections effici
 ---
 
 ## 📂 Project Structure
-'''
+```
 MultiUserFileTransfer/
 │
 ├── src/
@@ -32,7 +32,7 @@ MultiUserFileTransfer/
 │       └── Server.java
 ├── uploads/         # Server stores uploaded files here
 └── README.md
-  '''
+```
 
 ## How to Run
 
