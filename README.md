@@ -34,28 +34,28 @@ Open a terminal inside the MultiUserFileTransfer folder and run:
 javac src/server/Server.java
 javac src/client/Client.java
 
-###2. Run the server
+### 2. Run the server
 In the same terminal (or a new one):
 
 java server.Server
 
 The server will start and wait for clients.
 
-###3. Run the client
+### 3. Run the client
 Open another terminal window and run:
 
 java client.Client
 
 You’ll see a prompt from the server asking for a command.
 
-###4. Commands on Client
+### 4. Commands on Client
 UPLOAD → Upload a file to the server. It will ask for the file path.
 
 DOWNLOAD → Download a file from the server. It will ask for the file name.
 
 EXIT → Disconnect from the server.
 
-###5. Notes
+### 5. Notes
 
 Uploaded files are stored in the uploads/ folder on the server.
 
