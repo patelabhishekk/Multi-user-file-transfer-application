@@ -1,2 +1,63 @@
-# Multi-user-file-transfer-application
-Multi-User File Transfer Application is a Java-based project that enables multiple clients to upload and download files to and from a central server simultaneously. It uses socket programming and multi-threading to handle concurrent connections efficiently, providing a simple and secure way to transfer files over a network.
+# Multi-User File Transfer Application
+
+A robust Java application that allows multiple clients to upload and download files from a central server concurrently.
+
+## Features
+- Multi-threaded server handles multiple clients simultaneously
+- Upload files from client to server
+- Download files from server to client
+- Organized storage of uploaded files in uploads/ folder
+- Easy to extend for additional features
+
+## Tech Stack
+- Java SE
+- Java Sockets for networking
+- Multi-threading for handling multiple clients
+
+## Project Structure
+Multi-User FileTransfer Application
+|
+|---src/
+|  |---client/
+|  |  |---client.java
+|  |---server/
+|  |  |---server.java
+|---uploaads/
+|---README.md
+
+## How to Run
+
+### 1. Compile the code  
+Open a terminal inside the MultiUserFileTransfer folder and run:
+
+javac src/server/Server.java
+javac src/client/Client.java
+
+###2. Run the server
+In the same terminal (or a new one):
+
+java server.Server
+
+The server will start and wait for clients.
+
+###3. Run the client
+Open another terminal window and run:
+
+java client.Client
+
+You’ll see a prompt from the server asking for a command.
+
+###4. Commands on Client
+UPLOAD → Upload a file to the server. It will ask for the file path.
+
+DOWNLOAD → Download a file from the server. It will ask for the file name.
+
+EXIT → Disconnect from the server.
+
+###5. Notes
+
+Uploaded files are stored in the uploads/ folder on the server.
+
+Downloaded files are saved in the client directory with the prefix downloaded_.
+
+Always start the server before running any client.
