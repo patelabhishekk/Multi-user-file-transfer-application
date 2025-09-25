@@ -1,21 +1,27 @@
-# Multi-User File Transfer Application
+# 🚀 Multi-User File Transfer Application  
 
 A simple yet robust Java application that allows multiple clients to upload and download files to/from a central server simultaneously.  
 It uses Java sockets and multi-threading to handle concurrent connections efficiently.
 
-## Features
-- Multi-threaded server handles multiple clients simultaneously
-- Upload files from client to server
-- Download files from server to client
-- Organized storage of uploaded files in uploads/ folder
-- Easy to extend for additional features
+---
 
-## Tech Stack
-- Java SE
-- Java Sockets for networking
-- Multi-threading for handling multiple clients
+## ✨ Features
+- 🧵 Multi-threaded server handles many clients at the same time.
+- 📤 Upload files from client to server.
+- 📥 Download files from server to client.
+- 🗂 All uploaded files are saved in a dedicated uploads/ folder on the server.
+- 🔧 Easy to extend for more features such as authentication or chat.
 
-## Project Structure
+---
+
+## 🛠 Tech Stack
+- ☕ *Java SE*  
+- 🔌 *Java Socket Programming*  
+- 🧵 *Multi-Threading*
+
+---
+
+## 📂 Project Structure
 Multi-User FileTransfer Application
 |
 |---src/
