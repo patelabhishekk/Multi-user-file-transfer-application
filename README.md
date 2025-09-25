@@ -22,16 +22,19 @@ It uses Java sockets and multi-threading to handle concurrent connections effici
 ---
 
 ## 📂 Project Structure
-'''Multi-User FileTransfer Application
-|
-|---src/
-|  |---client/
-|  |  |---client.java
-|  |---server/
-|  |  |---server.java
-|---uploaads/
-|---README.md
-'''
+
+  
+MultiUserFileTransfer/
+│
+├── src/
+│   ├── client/
+│   │   └── Client.java
+│   └── server/
+│       └── Server.java
+├── uploads/         # Server stores uploaded files here
+└── README.md
+  
+
 ## How to Run
 
 ### 1. Compile the code  
